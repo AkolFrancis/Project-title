@@ -3,7 +3,7 @@ body {
 	margin: 20px;
 }
 .nav{
-	border: 2px solid blue;
+	/*border: 2px solid blue;*/
 	width: 1250px;
 	height: 120px;
 }
@@ -38,7 +38,7 @@ body {
 	margin-bottom: 30px;
 }
 .navbar{
-	border: 2px solid green;
+	/*border: 2px solid green;*/
 	width: 1250px;
 	height: 50px;
 }
@@ -50,8 +50,12 @@ body {
 	text-decoration: none;
 	padding: 14px 16px;
 }
+#dropdown {
+	text-decoration: none;
+	border: none;
+}
 .section{
-	border: 2px solid brown;
+	/*border: 2px solid brown;*/
 	width: 1250px;
 	height: 500px;
 	background-image: url(hero.jpg);
@@ -60,7 +64,7 @@ body {
 	
 }
 .callout{
-	border: 5px solid green;
+	/*border: 5px solid green;*/
 	background-color: rgb(52, 39, 138);
 	height: 440px; 
 	width: 350px;
@@ -101,7 +105,7 @@ body {
 	height: 30px;
 }
 .tag{
-	border: 2px solid yellow;
+	/*border: 2px solid yellow;*/
 	width: 1250px;
 	height: 300px;
 }
@@ -124,7 +128,7 @@ body {
 	margin-left: 40px;
 }
 .simple{
-	border: 2px solid brown;
+	/*border: 2px solid brown;*/
 	width: 1250px;
 	height: 600px;
 	background-color: rgb(21, 3, 73);
@@ -170,7 +174,7 @@ body {
 	font-size: 1em;
 }
 .heading{
-	border: 2px solid aqua;
+	/*border: 2px solid aqua;*/
 	width: 1250px;
 	height: 316px;
 }
@@ -202,7 +206,7 @@ margin: 40px;
 	text-decoration: underline;
 }
 .footer{
-	border: 2px solid pink;
+	/*border: 2px solid pink;*/
 	width: 1250px;
 	height: 300px;
 	margin-top: 10px;
@@ -214,7 +218,7 @@ margin: 40px;
 	text-align: center;
 	text-decoration: none;
 	height: 60px;
-	border: 2px solid maroon;
+	/*border: 2px solid maroon;*/
 	width: 1250px;
 	background-color: gainsboro;
 }
@@ -239,14 +243,14 @@ margin: 40px;
 	text-align: center;
 	text-decoration: none;
 	height: 240px;
-	border: 2px solid maroon;
+	/*border: 2px solid maroon;*/
 	width: 1250px;
 	background-color: grey;
 }
 .itemOne{
 	height: 240px;
 	width: 600px;
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	float: left;
 	display: block;
 	color: black;
@@ -263,9 +267,9 @@ margin: 40px;
 	margin-top: 70px;
 }
 .itemTwo{
-	height: 240px;
+	height: 140px;
 	width: 600px;
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	float: right;
 	display: block;
 	color: black;
@@ -281,8 +285,9 @@ margin: 40px;
 	text-align: center;
 	text-decoration: none;
 	height: 240px;
-	width: 600px;
+	width: 500px;
 	margin: 40px;
+	padding-left: 5em;
 }
 #socialmediaIcons{
 	float: left;
@@ -290,14 +295,34 @@ margin: 40px;
 	color: black;
 	text-align: center;
 	text-decoration: none;
+	margin-left: 0.5em;
+	padding-left: 1em;
 }
-.contact{
+#socialmediaIcons img {
+	margin-inline-start: 45px;
+    width: 40px;
+    height: 40px;
+}
+.socialmediaIcons h2{
+	float: right;
+	display: flex;
+	color: black;
+	text-align: right;
+	text-decoration: none;
+	margin-left: 5em;
+}
+.agency {
 	float: right;
 	display: block;
 	color: black;
-	text-align: left;
+	text-align: center;
 	text-decoration: none;
-	font-size: 1em;
-	margin-top: 10px;
-	width: 600px;
+}
+#agency {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	margin: 20px;
 }
