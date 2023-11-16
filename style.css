@@ -1,0 +1,246 @@
+body {
+	padding: auto;
+	margin: 20px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    height: 50px;
+    background-color:white;
+}
+.title{
+    order: 1;
+}
+.title h2{
+    font-size: 2em;
+}
+.list{
+    order: 2;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 30px;
+}
+.list li{
+    margin-left: 10px;
+}
+.form{
+   display: flex;
+   justify-content: flex-end;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+.nav li{
+    margin-left: 10px;
+}
+.section{
+    display: flex;
+    height: 600px;
+    margin: 10px;
+    background-image: url(hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.callout{
+    background-color: #162e51;
+	height: 450px; 
+	width: 400px;
+    position: absolute;
+    top: 78%;
+    left: 30%;
+	margin-bottom: 20px;
+	transform: translate(-50%,-50%);
+}
+.itemOne{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.white{
+    color: #fff;
+    font-size: 2.5em;
+}
+.blue{
+    color: #00bde3;
+    font-size: 2.5em;
+}
+.itemTwo{
+    margin-left: 50px;
+}
+.itemTwo p{
+    color: white;
+    font-size: 1.2em;
+}
+.itemThree{
+    margin-left: 50px;
+}
+.button{
+    color: white;
+	background-color: rgb(8, 71, 122);
+	height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+.tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+}
+.tagOne{
+    order: 1;
+    flex-basis: 200px;
+    margin: 50px;
+}
+.tagOne h2{
+    color: black;
+    font-size: 1.9em;
+    font-weight: bolder;
+}
+.tagTwo{
+    order: 2;
+    flex-basis: 800px;
+}
+.tagTwo p{
+    color: black;
+    font-size: 1.5em;
+}
+.simple{
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #162e51;
+}
+.aside{
+    display: flex;
+    height: 250px;
+    width: 45%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.img{
+    order: 1;
+    margin-top: 30px;
+}
+.content{
+    order: 2;
+    margin-left: 50px;
+}
+.content h2{
+    color: #00bde3;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+.content p{
+	color: white;
+	font-size: 1.2em;
+}
+.heading{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.head h2{
+    font-size: 2em;
+    margin-left: 20px;
+}
+.head p{
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+.head > button{
+    color: white;
+	background-color: #005ea2;
+	height: 50px;
+	margin-left: 40px;
+    border-radius: 5px;
+    border: none;
+}
+.footLink{
+    display: flex;
+    height: 80px;
+    background-color: #e6e6e6;
+}
+.footLink li{
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 1.5em;
+
+}
+.footLink > li > a{
+    text-decoration: underline;
+    list-style: none;
+    color: black;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    background-color: #a9aeb1;
+}
+.footerOne{
+    display: flex;
+    flex-wrap: wrap;
+    height: 280px;
+    width: 48%;
+}
+.footImg{
+    order: 1;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.footName{
+    order: 2;
+    margin-left: 40px;
+    margin-top: 90px;
+}
+.footName > h2{
+    font-size: 2em;
+}
+.footerTwo{
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    width: 50%;
+    margin-left: 40px;
+}
+.socialmediaIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 20px;
+    height: 80px;
+}
+.icons{
+    margin-right: 30px;
+}
+.agency{
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+}
+.agency > h2{
+    padding-bottom: 90px;
+    margin-right: 80px;
+}
+.contactInfo{
+    display: flex;
+    justify-content: flex-end;
+}
+.contactInfo > li{
+    margin-right: 40px;
+    padding-top: 30px;
+    font-size: 1.1em;
+    font-weight: bolder;
+    list-style: none;
+}
